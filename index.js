@@ -23,7 +23,11 @@ function createCircle(radius){
 const circle1 = createCircle(2)
 
 //construcor function - (like a class)
-
 function Circle2(radius) {
-  
+  this.radius = radius;
+  this.draw = function(){
+    console.log('draw');
+  }
 }
+
+const another = new Circle2(1);
