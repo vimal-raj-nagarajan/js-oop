@@ -22,7 +22,7 @@ function createCircle(radius){
 
 const circle1 = createCircle(2)
 
-//construcor function - (like a class)
+//construcor function - (like a class). No need to return. new does the return
 function Circle2(radius) {
   this.radius = radius;
   this.draw = function(){
